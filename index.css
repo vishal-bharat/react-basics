@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.black-overlay{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image-overlay{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.0)50%, rgba(0,0,0,1)) ;
+}
+
+
+
+.menu-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  
+}
+
+.menuCard {
+  height: 273px;
+  width: 284px;
+  border: 1px solid orange;
+  padding: 20px;
+}
+
+.menuCard > img{
+  width: 273;
+  height: 182px;
+}
