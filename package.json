@@ -6,8 +6,10 @@
     "scripts": {
         "start": "parcel index.html",
         "build": "parcel build index.html",
+        "deploy": "gh-pages -d dist",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "proxy": "https://www.swiggy.com", 
     "repository": {
         "type": "git",
         "url": "git+https://github.com/vishal-bharat/react-basics.git"
