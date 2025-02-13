@@ -2,9 +2,9 @@ export const IMG_CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/
 export const FOOD_CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/";
 
 export const REST_LINKS = {
-  DELHI: "https://prod.vesterkamp.com/swiggy/delhi.json",
-  BANGLORE: "https://prod.vesterkamp.com/swiggy/banglore.json",
-  MUMBAI: "https://prod.vesterkamp.com/swiggy/restaurant.json",
+  DELHI: "https://api.vesterkamp.com/swiggy/delhi.json",
+  BANGLORE: "https://api.vesterkamp.com/swiggy/banglore.json",
+  MUMBAI: "https://api.vesterkamp.com/swiggy/restaurant.json",
 };
 // https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0218215&lng=73.0907&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTIN
 //https://vishal-cdn.web.app/swiggy/restaurant.json
